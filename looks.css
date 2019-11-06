@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'wremena';
+  src: url('font/regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* BROWSER SIZE 1317 x 795 */
+/* BROWSER SIZE 2634 x 1590 */
+html {
+  box-sizing: border-box;
+  cursor: url('images/mouse.ico'), default;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: wremena;
+  background-color: #f8f8f8;
+  letter-spacing: .01em;
+  line-height: 1.5em;
+  margin: 0;
+  color: black;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  cursor: url('images/mouse.ico'), default;
+}
+video {
+  position: fixed;
+  top: 30%;
+  left:  0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 999;
+}
+div.handcoding-is-fun {
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.title {
+  padding: 60px;
+  height: 100vh;
+}
+.title h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.title p {
+  font-size: 1em;
+  margin: 0 0 15px 0;
+}
+.title img {
+  height: 70vh;
+  margin-top: 0px;
+}
+#thank-you {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  top: 0;
+  background: #f8f8f8;
+  color: navy;
+  font-size: 3em;
+  line-height: 1.25em;
+}
+#thank-you strong {
+  color: black;
+}
+#thank-you pre {
+  color: black;
+  position: fixed;
+  bottom: -40px;
+  right: 20px;
+  font-size: .75em !important;
+  line-height: 1em;
+}
+#images {
+  width: 100%;
+}
+#images img {
+  display: block;
+  margin-top: 50vh;
+  max-height: 100vh;
+  max-width: 80vw;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+img:first-child {
+  margin-top: 90vh;
+  margin-left: auto;
+  margin-right: 2%;
+}
+img:last-of-type {
+  margin-bottom: 0;
+}
+img:nth-child(2n+2) {
+  margin-right: 16%;
+  margin-left: auto;
+}
+img:nth-child(3n+3) {
+  margin-right: 0;
+  margin-left: auto;
+}
+img:nth-child(5n+5) {
+  margin-right: 30%;
+  margin-left: auto;
+}
+img:nth-child(4n+4) {
+  margin-right: 3%;
+  margin-left: auto;
+}
